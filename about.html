@@ -11,63 +11,165 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Namdhinggo:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/337be747ec.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="shortcut icon" href="media/favicon-re.ico" type="image/x-icon" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container header-text-container">
+    <header class="orange-header">
+      <div class="container">
         <div class="bar">
           <h1 class="title">Real Estate</h1>
           <a href="index.html">
             <span class="nav-real">Real</span>
             <span class="nav-state">Estate</span>
           </a>
-          <nav>
+          <div class="mobile-menu">
+            <a href="#menu">
+              <img class="filter" src="media/bars.svg" alt="Hamburger menu" />
+            </a>
+          </div>
+          <nav id="menu">
             <a href="#">About us</a>
             <a href="blog.html">Blog</a>
             <a href="contact.html">Contact</a>
           </nav>
         </div>
-        <p>
-          We sell luxury houses, <br />
-          condominiums and penthouses
-        </p>
       </div>
     </header>
-    <main class="container">
-      <h2>Our team</h2>
-      <table>
-        <thead>
-          <tr class="table-header">
-            <th>Name</th>
-            <th>Phone</th>
-            <th>Email</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="table-content">
-            <td>Name 1</td>
-            <td>555-555-5555</td>
-            <td>email@realestate.com</td>
-          </tr>
-          <tr class="table-content">
-            <td>Name 2</td>
-            <td>555-555-6666</td>
-            <td>email2@realestate.com</td>
-          </tr>
-        </tbody>
-      </table>
+    <main>
+      <div class="about-title">
+        <h2>About us</h2>
+      </div>
+      <section class="container">
+        <h3 class="flex-center primary-text">Who we are</h3>
+        <div class="employee-container">
+          <div class="employee-item">
+            <div class="employee employee1 br-100"></div>
+            <h4>Bill Evans</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, eius
+              repudiandae veniam laudantium repellat molestiae adipisci quo!
+              Perspiciatis vel hic, autem, dolor optio explicabo nesciunt
+              ratione aperiam, iste eveniet sed?
+            </p>
+          </div>
+          <div class="employee-item">
+            <div class="employee employee2 br-100"></div>
+            <h4>Laura Matt</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, eius
+              repudiandae veniam laudantium repellat molestiae adipisci quo!
+              Perspiciatis vel hic, autem, dolor optio explicabo nesciunt
+              ratione aperiam, iste eveniet sed?
+            </p>
+          </div>
+          <div class="employee-item">
+            <div class="employee employee3 br-100"></div>
+            <h4>Ram Kumar</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, eius
+              repudiandae veniam laudantium repellat molestiae adipisci quo!
+              Perspiciatis vel hic, autem, dolor optio explicabo nesciunt
+              ratione aperiam, iste eveniet sed?
+            </p>
+          </div>
+        </div>
+        <div class="employee-container flex-center">
+          <div class="employee-item width-33">
+            <div class="employee employee4 br-100"></div>
+            <h4>Yuri Gargin</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, eius
+              repudiandae veniam laudantium repellat molestiae adipisci quo!
+              Perspiciatis vel hic, autem, dolor optio explicabo nesciunt
+              ratione aperiam, iste eveniet sed?
+            </p>
+          </div>
+          <div class="employee-item width-33">
+            <div class="employee employee5 br-100"></div>
+            <h4>Asha Sing</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, eius
+              repudiandae veniam laudantium repellat molestiae adipisci quo!
+              Perspiciatis vel hic, autem, dolor optio explicabo nesciunt
+              ratione aperiam, iste eveniet sed?
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="container marginb-5">
+        <h2 class="flex-center">Our team</h2>
+        <table>
+          <thead>
+            <tr class="table-header">
+              <th>Name</th>
+              <th>Phone</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-content">
+              <td>Bill Evans</td>
+              <td>555-555-5555</td>
+              <td>bill@realestate.com</td>
+            </tr>
+            <tr class="table-content">
+              <td>Laura Matt</td>
+              <td>555-555-6666</td>
+              <td>laura@realestate.com</td>
+            </tr>
+            <tr class="table-content">
+              <td>Ram Kumar</td>
+              <td>555-555-7777</td>
+              <td>ram@realestate.com</td>
+            </tr>
+            <tr class="table-content">
+              <td>Yuri Gargin</td>
+              <td>555-555-8888</td>
+              <td>yuri@realestate.com</td>
+            </tr>
+            <tr class="table-content">
+              <td>Asha Sing</td>
+              <td>555-555-9999</td>
+              <td>asha@realestate.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
-    <footer class="image-footer">
-      <div class="site-footer">
-        <h2>We have the house of your dreams</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-          quisquam explicabo dolor quae fugiat laudantium asperiores. Inventore
-          aliquid deserunt pariatur rem, at quasi a nemo, quod enim sapiente
-          amet voluptate expedita in! Saepe, temporibus unde.
-        </p>
-        <a href="contact.html">Contact us</a>
+    <footer class="footer-container">
+      <div class="bar container">
+        <div>
+          <p>Powered By <span class="highlight-text bold">Zillow</span></p>
+        </div>
+        <div>
+          <p>
+            Copyright &copy; 2024
+            <span class="secondary-text privacy"
+              ><a class="highlight-text" href="#">Privacy Policy</a></span
+            >
+          </p>
+        </div>
+        <div class="flex-center">
+          <div class="flex-center">
+            <a href="#" class="sm-container flex-center"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </div>
+          <div class="flex-center">
+            <a href="#" class="sm-container flex-center"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </div>
+          <div class="flex-center">
+            <a href="#" class="sm-container flex-center"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
