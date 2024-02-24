@@ -699,6 +699,14 @@ select {
   font-size: 3rem;
 }
 
+.other-articles article {
+  margin-bottom: 5rem;
+}
+
+.other-articles a {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .featured-articles {
     flex-direction: column;
